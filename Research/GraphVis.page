@@ -84,8 +84,32 @@ title: Graph Visualization
     publisher={IEEE}
 }
 ~~~
+- ~~~{.bib}
+@article{Landesberger11,
+author = {T von Landesberger and A Kuijper and T Schreck and J Kohlhammer and Wijk van JJ and JD Fekete and D Fellner},
+title = {{Visual analysis of large graphs : state-of-the-art and future research challenges}},
+journal = {Computer Graphics Forum},
+volume = {30},
+year = {2011},
+issue = {6},
+masid = {59739433}
+}
+~~~
 
 ##Large Graph Optimization
+- ~~~{.bib}
+@article{Abello06,
+author = {James Abello and Frank Van Ham and Neeraj Krishnan},
+title = {{ASK-GraphView: A Large Scale Graph Visualization System}},
+journal = {IEEE Transactions on Visualization and Computer Graphics},
+volume = {12},
+year = {2006},
+pages = {669--676},
+issue = {5},
+doi = {10.1109/TVCG.2006.120},
+masid = {2518090}
+}
+~~~
 - ~~~{.bib}
 @inproceedings{Muelder08treemap,
     author = {Chris Muelder and Kwan-liu Ma},
@@ -98,6 +122,19 @@ title: Graph Visualization
 }
 ~~~
 - ~~~{.bib}
+@article{Archambault08,
+author = {Daniel Archambault and Tamara Munzner and David Auber},
+title = {{GrouseFlocks: Steerable Exploration of Graph Hierarchy Space}},
+journal = {IEEE Transactions on Visualization and Computer Graphics},
+volume = {14},
+year = {2008},
+pages = {900--913},
+issue = {4},
+doi = {10.1109/TVCG.2008.34},
+masid = {4772197}
+}
+~~~
+- ~~~{.bib}
 @inproceedings{Gansner09,
   title={Gmap: Drawing graphs as maps},
   author={Gansner, Emden R and Hu, Yifan and Kobourov, Stephen G},
@@ -106,6 +143,19 @@ title: Graph Visualization
   pages={405--407},
   year={2010},
   organization={Springer}
+}
+~~~
+- ~~~{.bib}
+@article{Archambault11,
+author = {Daniel Archambault and Tamara Munzner and David Auber},
+title = {{Tugging Graphs Faster: Efficiently Modifying Path-Preserving Hierarchies for Browsing Paths}},
+journal = {IEEE Transactions on Visualization and Computer Graphics},
+volume = {17},
+year = {2011},
+pages = {276--289},
+issue = {3},
+doi = {10.1109/TVCG.2010.60},
+masid = {14403491}
 }
 ~~~
 
@@ -149,6 +199,16 @@ title: Graph Visualization
 ~~~
 
 ## Social Network Visualization
+- ~~~{.bib}
+@inproceedings{Auber03,
+author = {David Auber and Yves Chiricota and Fabien Jourdan and Guy Melançon},
+title = {Multiscale Visualization of Small World Networks},
+booktitle = {IEEE Symposium on Information Visualization},
+journal = {IEEE Symposium on Information Visualization},
+year = {2003},
+masid = {1859767}
+}
+~~~
 - ~~~{.bib}
 @inproceedings{Ham04,
     author = {Frank van Ham and Jarke J. van Wijk},
