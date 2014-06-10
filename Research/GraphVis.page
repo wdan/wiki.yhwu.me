@@ -5,21 +5,33 @@ title: Graph Visualization
 
 #Research Papers
 
-## Graph Survey
+## Evaluation
 - ~~~{.bib}
-@article{Herman00,
-    title={Graph visualization and navigation in information visualization: A survey},
-    author={Herman, Ivan and Melan{\c{c}}on, Guy and Marshall, M Scott},
-    journal = {IEEE Transactions on Visualization and Computer Graphics},
-    volume={6},
-    number={1},
-    pages={24--43},
-    year={2000},
-    publisher={IEEE}
+@article{Ghoniem05,
+  title={On the readability of graphs using node-link and matrix-based representations: a controlled experiment and statistical analysis},
+  author={Ghoniem, Mohammad and Fekete, Jean-Daniel and Castagliola, Philippe},
+  journal={Information Visualization},
+  volume={4},
+  number={2},
+  pages={114--135},
+  year={2005},
+  publisher={SAGE Publications}
 }
 ~~~
 
 ## Graph Layout
+- ~~~{.bib}
+@article{Kamada89,
+    author = {T. Kamada and S. Kawai},
+    title = {{An Algorithm for Drawing General Undirected Graphs}},
+    journal = {Information Processing Letters},
+    volume = {31},
+    year = {1989},
+    pages = {7--15},
+    issue = {1},
+    doi = {10.1016/0020-0190(89)90102-6},
+}
+~~~
 - ~~~{.bib}
 @article{Fruchterman91,
     title={Graph drawing by force-directed placement},
@@ -33,15 +45,15 @@ title: Graph Visualization
 }
 ~~~
 - ~~~{.bib}
-@article{Kamada89,
-    author = {T. Kamada and S. Kawai},
-    title = {{An Algorithm for Drawing General Undirected Graphs}},
-    journal = {Information Processing Letters},
-    volume = {31},
-    year = {1989},
-    pages = {7--15},
-    issue = {1},
-    doi = {10.1016/0020-0190(89)90102-6},
+@article{Shneiderman92,
+  title={Tree visualization with tree-maps: 2-D space-filling approach},
+  author={Shneiderman, Ben},
+  journal={ACM Transactions on graphics (TOG)},
+  volume={11},
+  number={1},
+  pages={92--99},
+  year={1992},
+  publisher={ACM}
 }
 ~~~
 - ~~~{.bib}
@@ -59,7 +71,148 @@ title: Graph Visualization
 }
 ~~~
 
-## Community Visualization
+## Graph Survey
+- ~~~{.bib}
+@article{Herman00,
+    title={Graph visualization and navigation in information visualization: A survey},
+    author={Herman, Ivan and Melan{\c{c}}on, Guy and Marshall, M Scott},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume={6},
+    number={1},
+    pages={24--43},
+    year={2000},
+    publisher={IEEE}
+}
+~~~
+
+##Large Graph Optimization
+- ~~~{.bib}
+@inproceedings{Muelder08treemap,
+    author = {Chris Muelder and Kwan-liu Ma},
+    title = {{A Treemap Based Method for Rapid Layout of Large Graphs}},
+    booktitle = {IEEE Pacific Visualization Symposium},
+    journal = {IEEE Pacific Visualization Symposium},
+    year = {2008},
+    pages = {231--238},
+    doi = {10.1109/PACIFICVIS.2008.4475481},
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Gansner09,
+  title={Gmap: Drawing graphs as maps},
+  author={Gansner, Emden R and Hu, Yifan and Kobourov, Stephen G},
+  booktitle={Graph Drawing},
+  journal={Graph Drawing},
+  pages={405--407},
+  year={2010},
+  organization={Springer}
+}
+~~~
+
+## Matrix
+
+- ~~~{.bib}
+@article{Henry06,
+  title={Matrixexplorer: a dual-representation system to explore social networks},
+  author={Henry, Nathalie and Fekete, Jean-Daniel},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  volume={12},
+  number={5},
+  pages={677--684},
+  year={2006},
+  publisher={IEEE}
+}
+~~~
+- ~~~{.bib}
+@article{Henry07,
+    author = {Nathalie Henry and Jean-daniel Fekete and Michael J. McGuffin},
+    title = {{NodeTrix: a Hybrid Visualization of Social Networks}},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume = {13},
+    year = {2007},
+    pages = {1302--1309},
+    number = {6},
+    issue = {6},
+    doi = {10.1109/TVCG.2007.70582},
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Elmqvist08,
+    author = {Niklas Elmqvist and Thanh-nghi Do and Howard Goodell and Nathalie Henry and Jean-daniel Fekete},
+    title = {{ZAME: Interactive Large-Scale Graph Visualization}},
+    booktitle = {IEEE Pacific Visualization Symposium},
+    year = {2008},
+    pages = {215--222},
+    doi = {10.1109/PACIFICVIS.2008.4475479},
+    masid = {4234930}
+}
+~~~
+
+## Social Network Visualization
+- ~~~{.bib}
+@inproceedings{Ham04,
+    author = {Frank van Ham and Jarke J. van Wijk},
+    title = {{Interactive Visualization of Small World Graphs}},
+    booktitle = {IEEE Symposium on Information Visualization},
+    journal = {IEEE Symposium on Information Visualization},
+    year = {2004},
+    pages = {199--206},
+    doi = {10.1109/INFVIS.2004.43},
+}
+~~~
+- ~~~{.bib}
+@article{Shen06,
+    author = {Zeqian Shen and Kwan-liu Ma and Tina Eliassi-rad},
+    title = {{Visual Analysis of Large Heterogeneous Social Networks by Semantic and Structural Abstraction}},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume = {12},
+    year = {2006},
+    pages = {1427--1439},
+    issue = {6},
+    number= {6}
+    doi = {10.1109/TVCG.2006.107},
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Balzer07,
+    author = {Michael Balzer and Oliver Deussen},
+    title = {{Level-of-detail visualization of clustered graph layouts}},
+    booktitle = {IEEE Pacific Visualization Symposium},
+    journal = {IEEE Pacific Visualization Symposium},
+    year = {2007},
+    pages = {133--140},
+    doi = {10.1109/APVIS.2007.329288},
+}
+~~~
+- ~~~{.bib}
+@article{Jia08,
+  title={On the visualization of social and other scale-free networks},
+  author={Jia, Yuntao and Hoberock, Jared and Garland, Michael and Hart, John C},
+  journal={Visualization and Computer Graphics, IEEE Transactions on},
+  volume={14},
+  number={6},
+  pages={1285--1292},
+  year={2008},
+  publisher={IEEE}
+}
+~~~
+- ~~~{.bib}
+@article{Gestalt11,
+ author = {Brandes, Ulrik and Nick, Bobo},
+ title = {Asymmetric Relations in Longitudinal Social Networks},
+ journal = {IEEE Transactions on Visualization and Computer Graphics},
+ volume = {17},
+ number = {12},
+ year = {2011},
+ issn = {1077-2626},
+ pages = {2283--2290},
+ numpages = {8},
+ acmid = {2068629},
+ publisher = {IEEE Educational Activities Department},
+ address = {Piscataway, NJ, USA},
+ keywords = {Network Visualization, Social Networks, Time Series Data, Visual Knowledge Discovery and Representation, Glyphbased Techniques.},
+}
+~~~
 - ~~~{.bib}
 @article{Vehlow13,
     title={Visualizing Fuzzy Overlapping Communities in Networks},
@@ -73,24 +226,14 @@ title: Graph Visualization
 }
 ~~~
 - ~~~{.bib}
-@inproceedings{Balzer07,
-    author = {Michael Balzer and Oliver Deussen},
-    title = {{Level-of-detail visualization of clustered graph layouts}},
-    booktitle = {IEEE Pacific Visualization Symposium},
-    year = {2007},
-    pages = {133--140},
-    doi = {10.1109/APVIS.2007.329288},
-}
-~~~
-
-##Large Graph Optimization
-- ~~~{.bib}
-@inproceedings{Muelder08treemap,
-    author = {Chris Muelder and Kwan-liu Ma},
-    title = {{A Treemap Based Method for Rapid Layout of Large Graphs}},
-    booktitle = {IEEE Pacific Visualization Symposium},
-    year = {2008},
-    pages = {231--238},
-    doi = {10.1109/PACIFICVIS.2008.4475481},
+@article{Yang13,
+  title={PIWI: Visually exploring graphs based on their community structure},
+  author={Yang, Jing and Liu, Yujie and Zhang, Xin and Yuan, Xiaoru and Zhao, Ye and Barlowe, Scott and Liu, Shixia},
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  volume={19},
+  number={6},
+  pages={1034--1047},
+  year={2013},
+  publisher={IEEE}
 }
 ~~~
