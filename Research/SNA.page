@@ -5,32 +5,28 @@ title: Social Network Analysis
 
 #Research Papers
 
-## Social Network Metrics
+## Community Detection
 - ~~~{.bib}
-@article{Albert99,
-  title={Internet: Diameter of the world-wide web},
-  author={Albert, R{\'e}ka and Jeong, Hawoong and Barab{\'a}si, Albert-L{\'a}szl{\'o}},
-  journal={Nature},
-  volume={401},
-  number={6749},
-  pages={130--131},
-  year={1999},
-  publisher={Nature Publishing Group}
+@inproceedings{Gary00,
+    author = {Gary William Flake and Steve Lawrence and C. Lee Giles},
+    title = {{Efficient identification of Web communities}},
+    booktitle = {Knowledge Discovery and Data Mining},
+    journal = {Knowledge Discovery and Data Mining},
+    year = {2000},
+    pages = {150--160},
+    doi = {10.1145/347090.347121},
 }
 ~~~
-
-## Community Detection
-
 - ~~~{.bib}
-@article{Fortunato09,
-  title={Community detection in graphs},
-  author={Fortunato, Santo},
-  journal={Physics Reports},
-  volume={486},
-  number={3},
-  pages={75--174},
-  year={2010},
-  publisher={Elsevier}
+@article{Girvan02,
+  title={Community structure in social and biological networks},
+  author={Girvan, Michelle and Newman, Mark EJ},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={99},
+  number={12},
+  pages={7821--7826},
+  year={2002},
+  publisher={National Acad Sciences}
 }
 ~~~
 - ~~~{.bib}
@@ -66,5 +62,55 @@ title: Social Network Analysis
   pages={033015},
   year={2009},
   publisher={IOP Publishing}
+}
+~~~
+- ~~~{.bib}
+@article{Fortunato09,
+  title={Community detection in graphs},
+  author={Fortunato, Santo},
+  journal={Physics Reports},
+  volume={486},
+  number={3},
+  pages={75--174},
+  year={2010},
+  publisher={Elsevier}
+}
+~~~
+
+## Evaluation
+- ~~~{.bib}
+@inproceedings{leskovec10,
+  title={Empirical comparison of algorithms for network community detection},
+  author={Leskovec, Jure and Lang, Kevin J and Mahoney, Michael},
+  booktitle={Proceedings of the 19th international conference on World wide web},
+  journal={Proceedings of the 19th international conference on World wide web},
+  pages={631--640},
+  year={2010},
+  organization={ACM}
+}
+~~~
+
+## Social Network Metrics
+- ~~~{.bib}
+@article{Albert99,
+  title={Internet: Diameter of the world-wide web},
+  author={Albert, R{\'e}ka and Jeong, Hawoong and Barab{\'a}si, Albert-L{\'a}szl{\'o}},
+  journal={Nature},
+  volume={401},
+  number={6749},
+  pages={130--131},
+  year={1999},
+  publisher={Nature Publishing Group}
+}
+~~~
+- ~~~{.bib}
+@article{Guimera04,
+    author = {Roger Guimerà and Marta Sales-Pardo and Luís A. Nunes Amaral},
+    title = {{Modularity from fluctuations in random graphs and complex networks}},
+    journal = {Physical Review E},
+    volume = {70},
+    year = {2004},
+    issue = {2},
+    doi = {10.1103/PhysRevE.70.025101},
 }
 ~~~
