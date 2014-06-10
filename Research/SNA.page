@@ -4,3 +4,67 @@ title: Social Network Analysis
 ...
 
 #Research Papers
+
+## Social Network Metrics
+- ~~~{.bib}
+@article{Albert99,
+  title={Internet: Diameter of the world-wide web},
+  author={Albert, R{\'e}ka and Jeong, Hawoong and Barab{\'a}si, Albert-L{\'a}szl{\'o}},
+  journal={Nature},
+  volume={401},
+  number={6749},
+  pages={130--131},
+  year={1999},
+  publisher={Nature Publishing Group}
+}
+~~~
+
+## Community Detection
+
+- ~~~{.bib}
+@article{Fortunato09,
+  title={Community detection in graphs},
+  author={Fortunato, Santo},
+  journal={Physics Reports},
+  volume={486},
+  number={3},
+  pages={75--174},
+  year={2010},
+  publisher={Elsevier}
+}
+~~~
+- ~~~{.bib}
+@article{Newman04,
+    author = {Aaron Clauset and M. E. J. Newman and Cristopher Moore},
+    title = {{Finding community structure in very large networks}},
+    journal = {Physical Review E},
+    year = {2004},
+    volume={70},
+    number={6},
+    doi = {10.1103/PhysRevE.70.066111},
+}
+~~~
+- ~~~{.bib}
+@article{Newman06,
+    author = {M. E. J. Newman},
+    title = {{Modularity and community structure in networks}},
+    journal = {Proceedings of The National Academy of Sciences},
+    volume={103},
+    number={23},
+    pages={8577--8582},
+    year={2006},
+    publisher={National Acad Sciences}
+}
+~~~
+- ~~~{.bib}
+@article{Lancichinetti09,
+  title={Detecting the overlapping and hierarchical community structure in complex networks},
+  author={Lancichinetti, Andrea and Fortunato, Santo and Kert{\'e}sz, J{\'a}nos},
+  journal={New Journal of Physics},
+  volume={11},
+  number={3},
+  pages={033015},
+  year={2009},
+  publisher={IOP Publishing}
+}
+~~~
