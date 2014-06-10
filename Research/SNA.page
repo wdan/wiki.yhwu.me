@@ -3,6 +3,10 @@ format: Markdown
 title: Social Network Analysis
 ...
 
+# Course Slides
+
+- [Stanford CS224W: Social and Information Network Analysis](http://www.stanford.edu/class/cs224w/handouts.html)
+
 #Research Papers
 
 ## Community Detection
