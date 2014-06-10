@@ -4,3 +4,93 @@ title: Graph Visualization
 ...
 
 #Research Papers
+
+## Graph Survey
+- ~~~{.bib}
+@article{Herman00,
+    title={Graph visualization and navigation in information visualization: A survey},
+    author={Herman, Ivan and Melan{\c{c}}on, Guy and Marshall, M Scott},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume={6},
+    number={1},
+    pages={24--43},
+    year={2000},
+    publisher={IEEE}
+}
+~~~
+
+## Graph Layout
+- ~~~{.bib}
+@article{Fruchterman91,
+    title={Graph drawing by force-directed placement},
+    author={Fruchterman, Thomas MJ and Reingold, Edward M},
+    journal={Software: Practice and experience},
+    volume={21},
+    number={11},
+    pages={1129--1164},
+    year={1991},
+    publisher={Wiley Online Library}
+}
+~~~
+- ~~~{.bib}
+@article{Kamada89,
+    author = {T. Kamada and S. Kawai},
+    title = {{An Algorithm for Drawing General Undirected Graphs}},
+    journal = {Information Processing Letters},
+    volume = {31},
+    year = {1989},
+    pages = {7--15},
+    issue = {1},
+    doi = {10.1016/0020-0190(89)90102-6},
+}
+~~~
+- ~~~{.bib}
+@article{Muelder08,
+    author = {Chris Muelder and Kwan-liu Ma},
+    title = {{Rapid Graph Layout Using Space Filling Curves}},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume = {14},
+    year = {2008},
+    pages = {1301--1308},
+    issue = {6},
+    number={6},
+    doi = {10.1109/TVCG.2008.158},
+  publisher={IEEE}
+}
+~~~
+
+## Community Visualization
+- ~~~{.bib}
+@article{Vehlow13,
+    title={Visualizing Fuzzy Overlapping Communities in Networks},
+    author={Vehlow, Corinna and Reinhardt, Thomas and Weiskopf, Daniel},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume={19},
+    number={12},
+    pages={2486--2495},
+    year={2013},
+    publisher={IEEE}
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Balzer07,
+    author = {Michael Balzer and Oliver Deussen},
+    title = {{Level-of-detail visualization of clustered graph layouts}},
+    booktitle = {IEEE Pacific Visualization Symposium},
+    year = {2007},
+    pages = {133--140},
+    doi = {10.1109/APVIS.2007.329288},
+}
+~~~
+
+##Large Graph Optimization
+- ~~~{.bib}
+@inproceedings{Muelder08treemap,
+    author = {Chris Muelder and Kwan-liu Ma},
+    title = {{A Treemap Based Method for Rapid Layout of Large Graphs}},
+    booktitle = {IEEE Pacific Visualization Symposium},
+    year = {2008},
+    pages = {231--238},
+    doi = {10.1109/PACIFICVIS.2008.4475481},
+}
+~~~
