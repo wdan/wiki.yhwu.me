@@ -7,7 +7,26 @@ title: Graph Visualization
 
 ##Matrix-based
 
-- abc
-- def
-- ghc
+- J. Abello and F. van Ham. [Matrix Zoom: A Visual Interface to Semi-External Graphs](http://www.mgvis.com/RecentPapersUp06/MatrixZoomAbello_Ham.pdf). Proceedings of IEEE Symposium on Information Visualization, 2004.
+- Archambault, Daniel, Tamara Munzner, and David Auber. [Grouse: Feature-based, steerable graph hierarchy exploration](http://dl.acm.org/citation.cfm?id=2384190). Proceedings of the 9th Joint Eurographics/IEEE VGTC conference on Visualization. Eurographics Association, 2007.
 
+##Community visualization
+
+- Vehlow, Corinna, Thomas Reinhardt, and Daniel Weiskopf. [Visualizing Fuzzy Overlapping Communities in Networks](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6634179&tag=1). IEEE Transactions on Visualization and Computer Graphics, 19.12 (2013): 2486-2495.
+- Abello, James, Frank Van Ham, and Neeraj Krishnan. [Ask-graphview: A large scale graph visualization system](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4015416). IEEE Transactions on Visualization and Computer Graphics, 12.5 (2006): 669-676.
+	
+
+
+##Social network visualization
+
+- ~~~ { .bibtex }
+@article{Newman04,
+    author = {Aaron Clauset and M. E. J. Newman and Cristopher Moore},
+    title = {{Finding community structure in very large networks}},
+    journal = {Physical Review E},
+    year = {2004},
+    volume={70},
+    number={6},
+    doi = {10.1103/PhysRevE.70.066111},
+}
+~~~
