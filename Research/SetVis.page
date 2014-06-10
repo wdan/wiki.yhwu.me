@@ -2,3 +2,56 @@
 format: Markdown
 title: Set Visualization
 ...
+
+# Research Papers
+
+- ~~~{.bib}
+@article{Aure87,
+  title={Power diagrams: properties, algorithms and applications},
+  author={Aurenhammer, Franz},
+  journal={SIAM Journal on Computing},
+  volume={16},
+  number={1},
+  pages={78--96},
+  year={1987},
+  publisher={SIAM}
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Balzer05,
+    author = {Michael Balzer and Oliver Deussen},
+    title = {{Voronoi Treemaps}},
+    booktitle = {IEEE Symposium on Information Visualization},
+    journal = {IEEE Symposium on Information Visualization},
+    year = {2005},
+    doi = {10.1109/INFOVIS.2005.40},
+    masid = {1859787}
+}
+~~~
+- ~~~{.bib}
+@article{Cao11,
+    author={Nan Cao and Gotz, D. and Jimeng Sun and Huamin Qu},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    title={DICON: Interactive Visual Analysis of Multidimensional Clusters},
+    year={2011},
+    volume={17},
+    number={12},
+    pages={2581-2590},
+    keywords={data analysis;data structures;data visualisation;embedded systems;interactive systems;pattern clustering;statistical distributions;DICON;cluster quality;clutter reduction;complex data;fundamental data analysis technique;high-level statistical information;icon-based cluster visualization;interactive visual analysis;layout algorithm;multidimensional attribute display;multidimensional cluster;statistical information;user interaction;Algorithm design and analysis;Clustering algorithms;Encoding;Image color analysis;Information analysis;Visualization;Clustering;Information Visualization.;Visual Analysis;Algorithms;Cluster Analysis;Computer Graphics;Data Interpretation, Statistical;Databases, Factual;Humans;User-Computer Interface},
+    doi={10.1109/TVCG.2011.188},
+    ISSN={1077-2626},
+}
+~~~
+- ~~~{.bib}
+@inproceedings{Nocaj12,
+  title={Computing Voronoi Treemaps: Faster, Simpler, and Resolution-independent},
+  author={Nocaj, Arlind and Brandes, Ulrik},
+  booktitle={Computer Graphics Forum},
+  journal={Computer Graphics Forum},
+  volume={31},
+  number={3pt1},
+  pages={855--864},
+  year={2012},
+  organization={Wiley Online Library}
+}
+~~~
