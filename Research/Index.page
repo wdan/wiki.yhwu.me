@@ -3,6 +3,10 @@ format: Markdown
 title: Research
 ...
 
+###Visualization
 - [Graph Visualization](GraphVis)
 - [Set Visualization](SetVis)
+
+###Network Analysis
 - [Social Network Analysis](SNA)
+- [Information Diffusion](ID)
